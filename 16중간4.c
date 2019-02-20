@@ -22,5 +22,5 @@ void encryption_func(char *c1, char*c2, char*c3)
 		*c2 = *c2 - 26;
 	if (*c3 >= 123)
 		*c3 = *c3 - 26;
-	printf("Encryption result is %1c %1c %1c\n", *c1, *c2, *c3);
+	printf("Encryption result is %1c %1c %1c.\n", *c1, *c2, *c3);
 }
