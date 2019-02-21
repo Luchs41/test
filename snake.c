@@ -9,7 +9,7 @@
 #define TRUE 1
 #define FALSE 0
 
-char** map;//map정보를 담을 변수 생성
+char** map;//map정보를 담을 변수 생성.
 char** firstmap;//초기 map정보를 지닌 변수
 int row, col;//map의 가로, 세로 길이  변수
 
