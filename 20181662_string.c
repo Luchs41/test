@@ -20,7 +20,7 @@ char* strcpy(char* to_str, const char* from_str)
 		i++;
 		len++;
 	}
-	//배열의 각 자리에 대해 from_str의 값을 같은 자리의 to_str에 대입시킨다. 
+	//배열의 각 자리에 대해 from_str의 값을 같은 자리의 to_str 대입시킨다. 
 	for(i = 0; i < len; i++)
 	{
 		*(to_str + i) = *(from_str + i);
